@@ -40,7 +40,7 @@ class Bills extends Component {
 					<div className="label">Billing Unit (BU)</div>
 					<RenderSelect name="billing-unit" options={billingUnit} setStateValue={setBu} />
 					<button type="button" className="bttn-material-flat bttn-md bttn-success" id="btn" onClick={callHandler}>Pay Bill</button>
-		            <Alert stack={{limit: 3}} />
+		            <Alert stack={{limit: 1}} />
 				</div>
 			</div>);
 	}
